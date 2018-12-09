@@ -1,0 +1,163 @@
+.margin {
+    margin: 2%;
+}
+#body-menu {
+    background-color: #001E4E;
+    background: #001E4E; /* fallback for old browsers */
+    background: -webkit-linear-gradient(right, #001E4E, #011431);
+    background: -moz-linear-gradient(right, #001E4E, #011431);
+    background: -o-linear-gradient(right, #001E4E, #011431);
+    background: linear-gradient(to left, #001E4E, #011431);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;     
+
+}
+
+.white {
+    color: white;
+
+    display: inline-block;
+}
+
+.titolo {
+    font-size: 3em;
+    font-weight: 200;
+    margin-bottom: 20px;
+
+}
+
+.login-page {
+    width: 360px;
+    height: 360px;
+    padding: 10% 0 0;
+    margin: auto;
+}
+.form {
+    position: relative;
+    z-index: 1;
+    background: #2E8DEF;
+    max-width: 360px;
+    max-height: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    padding-bottom: 100px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+
+    box-sizing: border-box;\
+    font-size: 14px;
+}
+.login { 
+    cursor: pointer;
+    font-size: 2em;
+    line-height: 80%;
+
+}
+
+.login:hover {
+    text-shadow: 2px 2px 8px black;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+    max-width: 360px;
+    max-height: 360px;
+    margin: 0 auto;
+}
+
+#index-body {
+    background: #2672EC; /* fallback for old browsers */
+    background: -webkit-linear-gradient(right, #2672EC, #2E8DEF);
+    background: -moz-linear-gradient(right, #2672EC, #2E8DEF);
+    background: -o-linear-gradient(right, #2672EC, #2E8DEF);
+    background: linear-gradient(to left, #2672EC, #2E8DEF);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;      
+}
+
+#interv-body {
+    background: #002B36; /* fallback for old browsers */
+    
+
+}
+
+.interv-menu {
+    font-size: 3vw;
+    background-color: #002B36; 
+}
+
+.tabs {
+    
+    background-color: #002B36;
+    
+}
+
+.tabs:active {
+    
+    color: white;
+    background-color: #002B36;
+}
+
+.tabs>ul.tabs-list>li {
+    
+    background-color: #002B36;
+    color: rgb(255,255,255,0.2);
+    border-bottom: 2px solid;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+        
+    
+}
+
+.tabs>ul.tabs-list>li.active {
+    
+    background-color: #002B36;
+    color: white;
+    border-bottom: 2px solid;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;    
+    
+}
+
+.tabs>ul.tabs-list>li:hover {
+    
+    background-color: #002B36;
+    color: rgb(255,255,255,0.5);
+    border-top: 2px solid;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    
+}
+
+.tabs>ul.tabs-list>li.active:hover {
+    
+    background-color: #002B36;
+    color: white;
+    border-bottom: 2px solid;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;    
+    
+}
+
+
+
+
+
+
+
+
+

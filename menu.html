@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="author" content="Omissis Design" />
+        <link rel="shortcut icon" type="image/png" href="img_350781.png"/>
+        <title>Menu · DigitaTools</title>
+
+
+        <!-- Metro 4 -->
+        <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro-all.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="metro-icons.css" rel="stylesheet">
+    </head>
+    <body id="body-menu">
+
+        <div class="grid">
+
+
+            <div class="row flex-justify-end">
+                <div class="cell-2 margin"><span class="mif-cancel white mif-5x" style="float:right" onclick="infoBoxEventsExample1()"></span>
+                    <div class="info-box" data-role="infobox" data-type="alert">
+                        <div class="info-box-content">
+
+
+                        </div>
+                    </div></div>
+
+
+            </div>
+
+
+            <div class="row">
+
+                <div class="cell-12 margin white"><h1>Menu</h1></div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="cell margin">
+
+
+
+                    <div class="tiles-grid ">
+                        <div data-role="tile" data-size="large" data-effect="hover-slide-right">
+                            <div class="slide-front">
+                                <span class="mif-tools icon"></span>
+                                <span class="branding-bar">Interventi</span>
+
+                            </div>
+                            <div class="slide-back d-flex flex-justify-center flex-align-center p-4 op-mauve"><a href="ListaInteventi.html"></a>
+                                
+                                
+                               <span class="mif-table icon" onclick="window.location.href='ListaInteventi.html'"></span>
+                                <span class="branding-bar">Lista Interventi</span>
+                                    
+
+
+
+                            </div>
+
+                             </div>
+                        <div data-size="wide" data-role="tile"  class="bg-grayMouse bg-gray-hover" onclick="showSetupDemo()">
+                            <span class="mif-users icon"></span>
+                            <span class="branding-bar">Anagrafica</span>
+
+
+                        </div>
+                        <div data-size="wide" data-role="tile" class="bg-grayMouse bg-gray-hover" onclick="showSetupDemo()">
+                            <span class="mif-truck icon"></span>
+                            <span class="branding-bar">Magazzino</span>
+
+                        </div>
+                        <div data-size="medium" data-role="tile" class="bg-grayMouse bg-gray-hover" onclick="showSetupDemo()">
+                            <span class="mif-eur icon"></span>
+                            <span class="branding-bar">Vendite</span>
+
+                        </div>
+
+                        <div data-role="tile" data-size="medium" class="bg-grayMouse bg-gray-hover" onclick="showSetupDemo()">
+                            <span class="mif-calendar icon"></span>
+                            <span class="branding-bar">Calendario</span>
+
+                        </div>
+
+                        <div data-size="medium" data-role="tile" class="bg-grayMouse bg-gray-hover" onclick="showSetupDemo()">
+                            <span class="mif-list2 icon" ></span>
+                            <span class="branding-bar">Commesse</span>
+
+                        </div>
+
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+        <!-- jQuery first, then Metro UI JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+                <script src="https://cdn.metroui.org.ua/v4/js/metro.min.js"></script>
+        <script src="Metro-UI-CSS-master/build/js/metro.min.js"></script>
+        <script src="swup-master/dist/swup.min.js"></script>
+        <script>
+            function showSetupDemo(){
+                var notify = Metro.notify;
+                notify.setup({
+                    width: 150,
+                    duration: 1000,
+                    animation: 'easeOutBounce'
+                });
+                notify.create("Funzione in Arrivo!");
+                notify.reset();
+            }
+        </script>
+
+        <script>
+            function infoBoxEventsExample1() {
+
+                var html_content =
+                    "<h3>Sicuro di voler uscire?</h3>" +
+                    "<a href=index.html><h2>Uscita</h2></a>";
+                Metro.infobox.create(html_content);
+            }
+
+
+        </script>s
+    </body>
+</html>

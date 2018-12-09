@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="author" content="Omissis Design" />
+        <link rel="shortcut icon" type="image/png" href="img_350781.png"/>
+        <title>Interventi - DigitaTools</title>
+
+
+        <!-- Metro 4 -->
+        <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro-all.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="metro-icons.css" rel="stylesheet">
+
+    </head>
+
+    <body id="interv-body">
+
+
+
+        <div class="row flex-justify-between">
+            <div class="cell-2 margin">
+                <span class="icon mif-menu white mif-5x" onclick="$('#bottom-charms').data('charms').toggle()"></span>
+            </div>
+
+            <div class="cell-2 margin">
+                <span class="mif-cancel white mif-5x" style="float:right" onclick="infoBoxEventsExample1()"></span>
+                <div class="info-box" data-role="infobox" data-type="alert">
+                    <div class="info-box-content">
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row margin flex-justify-center">
+
+
+
+            <ul data-role="tabs" data-expand="true">
+                <li><a href="#"><p class="text-light interv-menu">Inseriti</p></a></li>
+                <li><a href="#"><p class="text-light interv-menu">Programmati</p></a></li>
+                <li><a href="#"><p class="text-light interv-menu">Sospesi</p></a></li>
+                <li><a href="#"><p class="text-light interv-menu">Eseguiti</p></a></li>
+                <li><a href="#"><p class="text-light interv-menu">In corso</p></a></li>
+
+            </ul>
+
+        </div>
+
+
+
+
+
+        <div data-role="charms" data-position="bottom" data-opacity=".5" id="bottom-charms" style="width: 50%">
+
+
+            <div class="tiles-grid margin">
+                <div data-role="tile" data-size="medium" data-effect="hover-slide-right">
+                    <div class="slide-front">
+                        <span class="mif-tools icon"></span>
+                        <span class="branding-bar">Interventi</span>
+                        <span class="badge-bottom">30</span>
+                    </div>
+
+                </div>
+
+                <div data-size="medium" data-role="tile" class="bg-grayMouse bg-gray-hover">
+                    <span class="mif-users icon"></span>
+                    <span class="branding-bar">Anagrafica</span>
+                    <span class="badge-bottom">30</span>
+                </div>
+                <div data-size="medium" data-role="tile" class="bg-grayMouse bg-gray-hover">
+                    <span class="mif-truck icon"></span>
+                    <span class="branding-bar">Magazzino</span>
+                    <span class="badge-bottom">30</span>
+                </div>
+                <div data-size="medium" data-role="tile" class="bg-grayMouse bg-gray-hover">
+                    <span class="mif-eur icon"></span>
+                    <span class="branding-bar">Vendite</span>
+                    <span class="badge-bottom">30</span>
+                </div>
+
+                <div data-role="tile" data-size="medium" class="bg-grayMouse bg-gray-hover">
+                    <span class="mif-calendar icon"></span>
+                    <span class="branding-bar">Calendario</span>
+                    <span class="badge-bottom">30</span>
+                </div>
+
+                <div data-size="medium" data-role="tile" class="bg-grayMouse bg-gray-hover">
+                    <span class="mif-list2 icon" ></span>
+                    <span class="branding-bar">Commesse</span>
+                    <span class="badge-bottom">30</span>
+                </div>
+
+            </div>
+            
+            
+
+        </div>
+
+
+
+
+
+        <!-- jQuery first, then Metro UI JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="Metro-UI-CSS-master/build/js/metro.min.js"></script>
+                <script src="https://cdn.metroui.org.ua/v4/js/metro.min.js"></script>
+        <script src="swup-master/dist/swup.min.js"></script>
+        <script>
+            function infoBoxEventsExample1() {
+
+                var html_content =
+                    "<h3>Sicuro di voler uscire?</h3>" +
+                     "<a href=index.html><h2>Uscita</h2></a>";
+                Metro.infobox.create(html_content);
+            }
+
+
+        </script>
+
+    </body>
+</html>
